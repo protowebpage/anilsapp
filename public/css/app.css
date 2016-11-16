@@ -39,7 +39,7 @@ section#app {
   font-size: 24px; }
 
 .of-my-design {
-  top: 0;
+  top: -500px;
   left: 402px;
   margin: 0;
   font-size: 120px;
@@ -54,7 +54,7 @@ section#app {
   font-size: 20px; }
 
 .delivered-to {
-  top: 0;
+  top: -500px;
   left: 392px;
   margin: 0;
   opacity: 0;
@@ -66,7 +66,7 @@ section#app {
   -webkit-transition: 1.2s ease-out 0.4s;
   transition: 1.2s ease-out 0.4s;
   left: 505px;
-  top: -5px;
+  top: -500px;
   opacity: 0;
   width: 60px;
   text-align: center;
@@ -300,7 +300,8 @@ section:not(.screen6) .subproduct:not(.selected) {
   opacity: 1; }
 
 #app.screen4 .file {
-  opacity: 1; }
+  opacity: 1;
+  top: -5px; }
 
 #app.screen5 .product.selected {
   left: 270px !important; }
@@ -317,7 +318,8 @@ section:not(.screen6) .subproduct:not(.selected) {
   opacity: 1; }
 
 #app.screen5 .file {
-  opacity: 1; }
+  opacity: 1;
+  top: -5px; }
 
 #app.screen5 .form-comment {
   left: 121px;
@@ -339,7 +341,8 @@ section:not(.screen6) .subproduct:not(.selected) {
   opacity: 1; }
 
 #app.screen6 .file {
-  opacity: 1; }
+  opacity: 1;
+  top: -5px; }
 
 #app.screen6 .made-with {
   top: 110px;
@@ -366,7 +369,8 @@ section:not(.screen6) .subproduct:not(.selected) {
   opacity: 1; }
 
 #app.screen7 .file {
-  opacity: 1; }
+  opacity: 1;
+  top: -5px; }
 
 #app.screen7 .made-with {
   top: 110px;
@@ -393,7 +397,8 @@ section:not(.screen6) .subproduct:not(.selected) {
   opacity: 1; }
 
 #app.screen8 .file {
-  opacity: 1; }
+  opacity: 1;
+  top: -5px; }
 
 #app.screen8 .made-with {
   top: 110px;
@@ -426,7 +431,8 @@ section:not(.screen6) .subproduct:not(.selected) {
   opacity: 1; }
 
 #app.screen9 .file {
-  opacity: 1; }
+  opacity: 1;
+  top: -5px; }
 
 #app.screen9 .made-with {
   top: 110px;

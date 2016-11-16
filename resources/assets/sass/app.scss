@@ -27,6 +27,7 @@
 } 
 @mixin file_screen4_5_6_7_8_9(){
 	opacity:1;
+	top:-5px;
 }
 @mixin selected_product_screen4_5_6_7_8_9(){
 	left:270px !important;
@@ -96,7 +97,7 @@ section#app {
 }
 
 .of-my-design {
-	top:0;
+	top:-500px;
 	left:402px;
 	margin:0;
 	font-size:120px;
@@ -113,7 +114,7 @@ section#app {
 }
 
 .delivered-to {
-	top:0;
+	top:-500px;
 	left:392px;
 	margin:0;
 	opacity:0;
@@ -130,7 +131,7 @@ section#app {
 	-o-transition: 1.2s ease-out 0.4s;
 	transition: 1.2s ease-out 0.4s;
 	left:505px;
-	top:-5px;
+	top:-500px;
 
 	opacity:0;
 	width:60px;
